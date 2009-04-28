@@ -1,3 +1,5 @@
+#summary Instructions for installing ZFDebug
+
 =Installation & Usage=
 
 To install, place the folder 'Scienta' in your library path, next to the Zend
