@@ -1,4 +1,5 @@
 #summary Instructions for installing ZFDebug
+#labels Featured
 
 =Installation & Usage=
 
