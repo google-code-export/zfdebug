@@ -1,0 +1,39 @@
+#labels Phase-Deploy
+= The Memory Plugin =
+
+The memory plugin shows the used size of memory used to generate this script
+
+== Options ==
+None
+
+== Contents in the menu tab ==
+Used Memory in KB
+
+== Contents in the content panel ==
+None
+
+== How to use ==
+The plugin itself looks very useless. But it will be very important when you are going to optimize you application, a same request should also need same memory. Compare the following code using the memory plugin
+
+{{{
+<?php
+$object1 = new MyObject();
+$object2 = new MyObject();
+$object3 = new MyObject();
+$object4 = new MyObject();
+$object1->doSomething();
+$object2->doSomething();
+$object3->doSomething();
+$object4->doSomething();
+?>
+
+<?php
+$object = new MyObject();
+$object->doSomething();
+$object->doSomething();
+$object->doSomething();
+$object->doSomething();
+?>
+}}}
+
+If you use Zend_Cache the memory plugin will allow you to see your cache enchancements.
