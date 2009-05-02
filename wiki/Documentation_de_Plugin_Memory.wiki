@@ -1,0 +1,39 @@
+#labels Phase-Deploy
+= Das Memory Plugin =
+
+Das "Memory Plugin" zeigt den benutzen/verbrauchten Speicher an der während der Ausführung des Scripts benötigt wurde. 
+
+== Optionen ==
+Keine
+
+== Informationen im Menü Balken ==
+Benutzter Speicher in KB
+
+== Informationen im Inhaltsbereich ==
+Keine
+
+== How to use ==
+Das Plugin alleine scheint auf den ersten Blick relativ nutzlos zu sein. Es zeigt seine Stärken erst, wenn es darum geht die Anwendung zu optimieren. Der gleiche Aufruf sollte auch immer die gleiche Menge an Speicher verbrauchen. Deshalb sieht man die Speicheroptimierung sehr deutlich. Vergleiche dazu folgenden Code.
+
+{{{
+<?php
+$object1 = new MyObject();
+$object2 = new MyObject();
+$object3 = new MyObject();
+$object4 = new MyObject();
+$object1->doSomething();
+$object2->doSomething();
+$object3->doSomething();
+$object4->doSomething();
+?>
+
+<?php
+$object = new MyObject();
+$object->doSomething();
+$object->doSomething();
+$object->doSomething();
+$object->doSomething();
+?>
+}}}
+
+Im Zusammenspiel mit Zend_Cache lässt sich sehr reinfach erkennen, wie effektiv sich der Cache auf den Speicher auswirkt.
