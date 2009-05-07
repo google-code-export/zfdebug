@@ -1,19 +1,17 @@
 #labels Phase-Deploy
-  # What is ZFDebug ?
-  # Quickstart
-  # Detailed Information
-    # Configuration
-    # Plugins
-        # [http://code.google.com/p/zfdebug/ Auth]
-        # [http://code.google.com/p/zfdebug/ Cache]
-        # [http://code.google.com/p/zfdebug/ Database]
-        # [http://code.google.com/p/zfdebug/ Exception]
-        # [http://code.google.com/p/zfdebug/ File]
-        # [http://code.google.com/p/zfdebug/ Memory]
-        # [http://code.google.com/p/zfdebug/ Registry]
-        # [http://code.google.com/p/zfdebug/ Text]
-        # [http://code.google.com/p/zfdebug/ Time]
-        # [http://code.google.com/p/zfdebug/ Variables]
-  # About the authors
+= The Cache Plugin =
 
-  
+The cache plugin shows cached ids with their lifetime in the specific cache
+
+== Options ==
+  # Zend_Cache_Backend_Extended_Interface
+
+== Contents in the menu tab ==
+Type of cache backend
+
+== Contents in the content panel ==
+  * Filling factor of the cache
+  * Cache id name with time created/expires
+
+== How to use ==
+The cache plugin will allow you to see your cache enchancements.
