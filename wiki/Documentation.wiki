@@ -4,15 +4,15 @@
   # Details
     # Configuration
     # Plugins
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Auth Auth]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Cache Cache]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Database Database]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Exception Exception]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_File File]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Memory Memory]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Registry Registry]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Text Text]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Time Time]
-      # [http://code.google.com/p/zfdebug/Documentation_Plugin_Variables Variables]
-  # [http://code.google.com/p/zfdebug/License License]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Auth Auth]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Cache Cache]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Database Database]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Exception Exception]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_File File]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Memory Memory]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Registry Registry]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Text Text]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Time Time]
+      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Variables Variables]
+  # [http://code.google.com/p/zfdebug/wiki/License License]
   # About the authors
