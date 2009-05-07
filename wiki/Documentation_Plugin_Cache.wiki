@@ -1,0 +1,19 @@
+#labels Phase-Deploy
+  # What is ZFDebug ?
+  # Quickstart
+  # Detailed Information
+    # Configuration
+    # Plugins
+        # [http://code.google.com/p/zfdebug/ Auth]
+        # [http://code.google.com/p/zfdebug/ Cache]
+        # [http://code.google.com/p/zfdebug/ Database]
+        # [http://code.google.com/p/zfdebug/ Exception]
+        # [http://code.google.com/p/zfdebug/ File]
+        # [http://code.google.com/p/zfdebug/ Memory]
+        # [http://code.google.com/p/zfdebug/ Registry]
+        # [http://code.google.com/p/zfdebug/ Text]
+        # [http://code.google.com/p/zfdebug/ Time]
+        # [http://code.google.com/p/zfdebug/ Variables]
+  # About the authors
+
+  

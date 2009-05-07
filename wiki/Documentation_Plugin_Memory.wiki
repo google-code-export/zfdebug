@@ -1,18 +1,18 @@
 #labels Phase-Deploy
-= The Memory Plugin =
+== The Memory Plugin ==
 
 The memory plugin shows the used size of memory used to generate this script
 
-== Options ==
+=== Options ===
 None
 
-== Contents in the menu tab ==
+=== Contents in the menu tab ===
 Used Memory in KB
 
-== Contents in the content panel ==
+=== Contents in the content panel ===
 None
 
-== How to use ==
+=== How to use ===
 The plugin itself looks very useless. But it will be very important when you are going to optimize you application, a same request should also need same memory. Compare the following code using the memory plugin
 
 {{{

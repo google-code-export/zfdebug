@@ -1,22 +1,22 @@
 #labels Phase-Deploy
-= The Database Plugin =
+== The Database Plugin ==
 
 The database plugin can show all queries executed to a specific database
 
-== Options ==
+=== Options ===
 There three ways to use this plugin:
   #  No Parameter: The plugin will use Zend_Db_Table::getDefaultAdapter
   #  Zend_Db_Adapter_Abstract: If you have only one database connection
   #  An array of Zend_Db_Adapter_Abstract, alternativley you can just add a second database plugin
 
 
-== Contents in the menu tab ==
+=== Contents in the menu tab ===
 Query count and total execution time
 
-== Contents in the content panel ==
+=== Contents in the content panel ===
 Every single query with its execution time and parameters, if any
 
-== How to use ==
+=== How to use ===
   *  Determine any duplicate queries
   *  Determine any slow queries and try to optimize them
 

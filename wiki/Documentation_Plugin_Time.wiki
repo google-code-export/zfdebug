@@ -1,0 +1,34 @@
+#labels Phase-Deploy
+== The Time Plugin ==
+
+The time plugin shows useful information about the different "render" steps in
+your application
+
+=== Options ===
+None
+
+=== Contents in the menu tab ===
+  * Total time needed to render/interpret the current page/request
+
+=== Contents in the content panel ===
+  * Total render time of the controller (init, specified Action)
+  * Times of your own timers (see below)
+  * Min/Avg/Max Time for all requests in this session
+  
+=== How to use ===
+Set custom timers to determine specific render times of your application. This can 
+be very useful then optimizing your application.
+
+{{{
+// Get the time plugin through any method
+// $frontController = Zend_Controller_Front::getInstance();
+$pluginTime = $frontController->getPlugin('ZFDebug_Controller_Plugin_Debug_Plugin_Time');
+// Or just another possible way
+$pluginTime = Zend_Registry::get('ZFDebug_Time');
+// Set a custom timer
+$scBar->mark('Slow Part');
+// Lots of code
+// taking very long
+// to execute
+$scBar->mark('Slow Part');
+}}}
