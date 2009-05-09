@@ -13,11 +13,12 @@ The file plugin shows you all included files
 
 === Contents in the content panel ===
   * Total number of files included
+  * Total size of files included
   * basePath for reference
   * List of application files
   * List of your own library files
   * List of ZFDebug Files
   * List of Zend Framework files 
   
-=== How to use ===
+=== Details ===
 Try to determine if any unnecessary files are included and remove them

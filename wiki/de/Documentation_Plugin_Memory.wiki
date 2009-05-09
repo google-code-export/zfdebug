@@ -12,7 +12,7 @@ Benutzter Speicher in KB
 === Informationen im Inhaltsbereich ===
 Keine
 
-=== How to use ===
+=== Details zum Plugin ===
 Das Plugin alleine scheint auf den ersten Blick relativ nutzlos zu sein. Es zeigt seine Stärken erst, wenn es darum geht die Anwendung zu optimieren. Der gleiche Aufruf sollte auch immer die gleiche Menge an Speicher verbrauchen. Deshalb sieht man die Speicheroptimierung sehr deutlich. Vergleiche dazu folgenden Code.
 
 {{{

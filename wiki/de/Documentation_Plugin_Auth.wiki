@@ -1,0 +1,21 @@
+#labels Phase-Deploy
+== Das Auth Plugin ==
+
+Das Auth Plugin zeigt den aktuellen Benutzernamen, sowie die aktuelle Rolle an.
+
+=== Optionen ===
+  # Variable in Zend_Auth_Storage_Interface die den Benutzernamen beinhaltet
+  # Variable in Zend_Auth_Storage_Interface die die Rolle beinhaltet 
+
+=== Informationen im Menü Balken ===
+  * Der aktuelle Benutzername
+  * Die aktuelle Rolle
+
+=== Informationen im Inhaltsbereich ===
+Keine
+  
+=== Details zum Plugin ===
+Das Plugin wurde aufgrund einer Anfrage hinzugefügt. Zur Zeit kann damit leider
+nur der aktuelle Benutzername und die aktuelle Rolle angezeigt werden. Sobald
+Zend_Acl eine Möglichkeit bietet, den ACL Baum für die Rolle abzurufen, wird
+dieses Plugin um diese Funktionalität erweitert. 

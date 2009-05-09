@@ -12,7 +12,7 @@ Used Memory in KB
 === Contents in the content panel ===
 None
 
-=== How to use ===
+=== Details ===
 The plugin itself looks very useless. But it will be very important when you are going to optimize you application, a same request should also need same memory. Compare the following code using the memory plugin
 
 {{{

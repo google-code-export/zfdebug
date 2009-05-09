@@ -14,7 +14,7 @@ The text plugin is used by the version plugin to show its content
   * Your text
 
 
-=== How to use ===
+=== Details ===
 Its an easy an fast way to publish information
 
 {{{

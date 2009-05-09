@@ -1,0 +1,17 @@
+#labels Phase-Deploy
+= Das Cache Plugin =
+
+Das Cache Plugin zeigt die Cache Ids und ihre Lebenszeit
+
+== Optionen ==
+  # Zend_Cache_Backend_Extended_Interface
+
+== Informationen im Menü Balken ==
+  * Typ des Cache Backends
+
+== Informationen im Inhaltsbereich ==
+  * Füllfaktor des Caches
+  * Id Name  und die Zeit wann der Cache Eintrag erstellt wurde, bzw. ausläuft.
+
+== Details zum Plugin ==
+The cache plugin will allow you to see your cache enchancements.

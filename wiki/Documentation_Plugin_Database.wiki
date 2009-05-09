@@ -11,12 +11,12 @@ There three ways to use this plugin:
 
 
 === Contents in the menu tab ===
-Query count and total execution time
+  * Query count and total execution time
 
 === Contents in the content panel ===
-Every single query with its execution time and parameters, if any
+  * Every single query with its execution time and parameters, if any
 
-=== How to use ===
+=== Details ===
   *  Determine any duplicate queries
   *  Determine any slow queries and try to optimize them
 

@@ -1,0 +1,19 @@
+#labels Phase-Deploy
+== Plugins ==
+
+Following plugins are available for ZFDebug, you can combine them how you need them
+
+=== Plugin List ===
+  * [Documentation_Plugin_Auth Auth]
+  * [Documentation_Plugin_Cache Cache]
+  * [Documentation_Plugin_Database Database]
+  * [Documentation_Plugin_Exception Exception]
+  * [Documentation_Plugin_File File]
+  * [Documentation_Plugin_Memory Memory]
+  * [Documentation_Plugin_Registry Registry]
+  * [Documentation_Plugin_Text Text]
+  * [Documentation_Plugin_Time Time]
+  * [Documentation_Plugin_Variables Variables]
+  
+Your are missing a plugin? Just write an [http://code.google.com/p/zfdebug/issues/entry issue]
+and tell us. Feel free to submit own Plugins, we will add them to the project.

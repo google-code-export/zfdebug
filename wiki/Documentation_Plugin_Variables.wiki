@@ -15,7 +15,7 @@ None
   * Detailed information about your request
   * All view variables used in viewscripts
   
-=== How to use ===
+=== Details ===
 This plugin is loaded if you do not change the plugin configuration, you do not
 need any additional configuration.
 

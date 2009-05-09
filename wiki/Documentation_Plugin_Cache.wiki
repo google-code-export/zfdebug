@@ -7,11 +7,11 @@ The cache plugin shows cached ids with their lifetime in the specific cache
   # Zend_Cache_Backend_Extended_Interface
 
 == Contents in the menu tab ==
-Type of cache backend
+  * Type of cache backend
 
 == Contents in the content panel ==
   * Filling factor of the cache
   * Cache id name with time created/expires
 
-== How to use ==
+== Details ==
 The cache plugin will allow you to see your cache enchancements.

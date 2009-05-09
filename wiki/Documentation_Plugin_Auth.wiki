@@ -14,7 +14,7 @@ The auth plugin shows your current username and your current role
 === Contents in the content panel ===
 None
   
-=== How to use ===
+=== Details ===
 This plugin was requested by an user. Currently it can only display the username
 and the role. This plugin will be updated if its possible to get the acl tree from
 Zend_Acl in a standardized way.

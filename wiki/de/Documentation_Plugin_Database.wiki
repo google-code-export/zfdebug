@@ -1,0 +1,24 @@
+#labels Phase-Deploy
+== Das Database Plugin ==
+
+Das Database Plugin zeigt alle Queries die für den Adapter aufgezeichnet wurden.
+
+=== Optionen ===
+Es gibt drei Möglichkeit um dieses Plugin zu nutzen
+  #  Kein Parameter: Das Plugin holt sich den Adapter mit Hilfe von Zend_Db_Table::getDefaultAdapter
+  #  Zend_Db_Adapter_Abstract: Wenn nur eine Datenbank Verbindung genutzt wird
+  #  Ein Array mit Zend_Db_Adapter_Abstract, alternativ kann mein ein zweites 
+     Datenbank Plugin nutzen
+
+=== Informationen im Menü Balken ===
+  * Query Anzahl und die gesamte Ausführungszeit
+
+=== Informationen im Inhaltsbereich ===
+  * Jedes Query mit seiner Ausführungszeit und Parametern (wenn welche genutzt wurden)
+
+=== Details zum Plugin ===
+  *  Geeignet zum Finden doppelter Queries
+  *  Geeignet zum Finden langsamer Queries, um Sie danach zu optimieren
+
+Wenn Sie Zend_Cache nutzen um Datenbankabfragen zu cachen werden Sie das Fehlen
+der Queries hier bemerken

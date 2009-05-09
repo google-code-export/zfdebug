@@ -13,5 +13,5 @@ None
   * Detail list of data, not limited to objects stored in the registry
 
 
-=== How to use ===
+=== Details ===
 See what is stored in the registry

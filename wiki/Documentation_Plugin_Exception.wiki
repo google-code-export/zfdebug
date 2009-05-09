@@ -13,5 +13,5 @@ None
   * Detail list of errors and/or thrown and not handled Exceptions
 
 
-=== How to use ===
+=== Details ===
 Use it if you develop your application like trial and error

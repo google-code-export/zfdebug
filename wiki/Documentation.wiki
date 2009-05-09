@@ -3,16 +3,16 @@
   # Quickstart
   # Details
     # Configuration
-    # Plugins
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Auth Auth]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Cache Cache]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Database Database]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Exception Exception]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_File File]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Memory Memory]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Registry Registry]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Text Text]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Time Time]
-      # [http://code.google.com/p/zfdebug/wiki/Documentation_Plugin_Variables Variables]
-  # [http://code.google.com/p/zfdebug/wiki/License License]
+    # [Documentation_Plugins Plugins]
+      # [Documentation_Plugin_Auth Auth]
+      # [Documentation_Plugin_Cache Cache]
+      # [Documentation_Plugin_Database Database]
+      # [Documentation_Plugin_Exception Exception]
+      # [Documentation_Plugin_File File]
+      # [Documentation_Plugin_Memory Memory]
+      # [Documentation_Plugin_Registry Registry]
+      # [Documentation_Plugin_Text Text]
+      # [Documentation_Plugin_Time Time]
+      # [Documentation_Plugin_Variables Variables]
+  # [License License]
   # About the authors

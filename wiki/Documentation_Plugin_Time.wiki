@@ -15,7 +15,7 @@ None
   * Times of your own timers (see below)
   * Min/Avg/Max Time for all requests in this session
   
-=== How to use ===
+=== Details ===
 Set custom timers to determine specific render times of your application. This can 
 be very useful then optimizing your application.
 
