@@ -20,15 +20,12 @@ Set custom timers to determine specific render times of your application. This c
 be very useful then optimizing your application.
 
 {{{
-// Get the time plugin through any method
-// $frontController = Zend_Controller_Front::getInstance();
-$pluginTime = $frontController->getPlugin('ZFDebug_Controller_Plugin_Debug_Plugin_Time');
-// Or just another possible way
-$pluginTime = Zend_Registry::get('ZFDebug_Time');
-// Set a custom timer
-$scBar->mark('Slow Part');
+$zfDebug = Zend_Controller_Front::getInstance()->getPlugin('ZFDebug_Controller_Plugin_Debug');
+$zfTimer = $zfdebug->getPlugin('Time');
+
+$zfTimer->mark('Slow Part');
 // Lots of code
 // taking very long
 // to execute
-$scBar->mark('Slow Part');
+$zfTimer->mark('Slow Part');
 }}}
