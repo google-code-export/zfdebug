@@ -1,4 +1,4 @@
-#summary Changelog for webgrind.
+#summary Changelog for ZFDebug.
 #labels Featured
 
 ==SVN==
