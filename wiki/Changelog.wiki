@@ -1,0 +1,17 @@
+#summary Changelog for webgrind.
+#labels Featured
+
+==SVN==
+ * New: Database plugin support EXPLAIN on SELECT queries for MySQL adapters
+ * Changed: Time plugin displays average time for current request only
+ * Changed: Panel widened to 800px
+
+==1.5==
+ * New: Rewritten with modular plugin structure
+ * New: Time plugin shows average/min/max request time
+ * New: Registry plugin with contents of Zend_Registry
+ * New: Html plugin with basic HTML info and W3C validation
+ * New: Memory plugin supports `mark()` method to calculate delta memory usage
+ * New: File plugin shows total size of included files
+ * New: Cache plugin with information on Zend_Cache and APC
+ * New: Debug bar remembers visibility (collapsed state) between reloads
