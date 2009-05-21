@@ -15,12 +15,14 @@ protected function _initZFDebug()
     $autoloader->registerNamespace('ZFDebug');
     
     $options = array(
-        'plugins' => array('variables', 'database', 
-                           'file' => array('basePath' => '/Library/WebServer/Documents/budget', 'myLibrary' => 'Scienta'),
-                           'memory', 'time', 'registry', 
-                           //'auth',
-                           //'cache' => array('backend' => $cache->getBackend()), 
-                           'exception')
+        'plugins' => array('Variables', 
+                           'Database' => array('adapter' => $db), 
+                           'File' => array('basePath' => '/path/to/project'),
+                           'Memory', 
+                           'Time', 
+                           'Registry', 
+                           'Cache' => array('backend' => $cache->getBackend()), 
+                           'Exception')
     );
     $debug = new ZFDebug_Controller_Plugin_Debug($options);
     
