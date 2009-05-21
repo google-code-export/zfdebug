@@ -10,30 +10,18 @@ None
 Used Memory in KB
 
 === Contents in the content panel ===
-None
+Memory used during the requested controller action and any custom memory marks
 
 === Details ===
-The plugin itself looks very useless. But it will be very important when you are going to optimize you application, a same request should also need same memory. Compare the following code using the memory plugin
+Measure memory usage by calling the `mark()` method on the plugin like so:
 
 {{{
-<?php
-$object1 = new MyObject();
-$object2 = new MyObject();
-$object3 = new MyObject();
-$object4 = new MyObject();
-$object1->doSomething();
-$object2->doSomething();
-$object3->doSomething();
-$object4->doSomething();
-?>
+$zfDebug = Zend_Controller_Front::getInstance()->getPlugin('ZFDebug_Controller_Plugin_Debug');
+$zfMemory = $zfdebug->getPlugin('Memory');
 
-<?php
-$object = new MyObject();
-$object->doSomething();
-$object->doSomething();
-$object->doSomething();
-$object->doSomething();
-?>
+$zfMemory->mark('Memory usage');
+...
+# some memory expensive operations
+...
+$zfMemory->mark('Memory usage');
 }}}
-
-If you use Zend_Cache the memory plugin will allow you to see your cache enchancements.
