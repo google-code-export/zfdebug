@@ -16,14 +16,28 @@ protected function _initZFDebug()
     
     $options = array(
         'plugins' => array('Variables', 
-                           'Database' => array('adapter' => $db), 
                            'File' => array('base_path' => '/path/to/project'),
                            'Memory', 
                            'Time', 
                            'Registry', 
-                           'Cache' => array('backend' => $cache->getBackend()), 
                            'Exception')
     );
+    
+    # Instantiate the database adapter and setup the plugin.
+    # Alternatively just add the plugin like above and rely on the autodiscovery feature.
+    if ($this-hasPluginResource('db')) {
+        $this->bootstrap('db');
+        $db = $this->getPluginResource('db')->getDbAdapter();
+        $options['plugins']['Database']['adapter'] = $db;
+    }
+
+    # Setup the cache plugin
+    if ($this-hasPluginResource('cache')) {
+        $this->bootstrap('cache');
+        $cache = $this-getPluginResource('cache')->getDbAdapter();
+        $options['plugins']['Cache']['backend'] = $cache->getBackend();
+    }
+
     $debug = new ZFDebug_Controller_Plugin_Debug($options);
     
     $this->bootstrap('frontController');
