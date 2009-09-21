@@ -2,9 +2,18 @@
 #labels Featured
 
 ==SVN==
+ * New: Ability to disable ZFDebug by passing ZFDEBUG_DISABLE as GET/POST parameter
+ * New: Works with HTML5
  * New: Database plugin support EXPLAIN on SELECT queries for MySQL adapters
+ * Changed: Plugin icons moved to individual files
+ * Changed: File plugin uses realpath on base_path
+ * Changed: Memory plugin uses dispatchLoop time in delta memory usage
+ * Changed: Time plugin displays dispatchLoop time next to $_SERVER['REQUEST_TIME']
  * Changed: Time plugin displays average time for current request only
  * Changed: Panel widened to 800px
+ * Fixed: Time plugin checks if the session has been started before resetting, issue #32
+ * Fixed: File plugin problem with similarly named libraries, issue #16
+ * Fixed: Line breaks depend on doctype setting, issue #13
 
 ==1.5==
  * New: Rewritten with modular plugin structure
